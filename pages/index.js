@@ -18,8 +18,6 @@ export default function Home() {
 				url: websiteURL
 			})
 		}).then((res) => res.json())
-
-		setImageURL(res.data)
 		console.log(res)
 	}
 
